@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Come y Calla: Edición Tobyas</title>
+  
+  <!-- Google Fonts: Fredoka para títulos, Comfortaa para textos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- AOS CSS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- SECCIÓN HERO -->
+  <header class="hero d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="container" data-aos="zoom-in" data-aos-duration="1200">
+      <img src="./assets/images/Tobyas_Chef.png" alt="Tobyas el Chef Estrella" class="img-fluid tobyas-img mb-4">
+      <h1 class="display-2 fw-bold title-animated">Come y Calla:<br><span>Edición Tobyas</span></h1>
+      <h2 class="h3 subtitle-animated mt-3">Invitación Especial</h2>
+    </div>
+  </header>
+
+  <!-- SECCIÓN INVITACIÓN -->
+  <section class="container py-5 my-md-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card invitation-card shadow-sm text-center p-4 p-md-5" data-aos="flip-up" data-aos-duration="1000">
+          <h2 class="mb-4">¡Guau, estás invitado! 🐾</h2>
+          <p class="lead mb-0">
+            Soy Tobyas, su anfitrión y chef estrella. He estado olfateando los mejores ingredientes,
+            supervisando la cocina y preparando una velada espectacular para la familia. 
+            ¡Prepárense para una noche de ladridos, risas y el mejor festín!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DETALLES (FECHA Y LUGAR) -->
+  <section class="container py-4 text-center">
+    <div class="row justify-content-center g-4">
+      <!-- Tarjeta de Fecha -->
+      <div class="col-12 col-md-5 col-lg-4">
+        <div class="card invitation-card shadow-sm p-4 h-100" data-aos="fade-right" data-aos-duration="1000">
+          <h3 class="h4 fw-bold mb-3">📅 ¿Cuándo?</h3>
+          <p class="lead mb-0">Sábado, 15 de Noviembre<br>A partir de las 20:00 hrs</p>
+        </div>
+      </div>
+      <!-- Tarjeta de Lugar -->
+      <div class="col-12 col-md-5 col-lg-4">
+        <div class="card invitation-card shadow-sm p-4 h-100" data-aos="fade-left" data-aos-duration="1000">
+          <h3 class="h4 fw-bold mb-3">📍 ¿Dónde?</h3>
+          <p class="lead mb-0">Onde el TobynChan<br>Pasaje Estacion el Melocoton, 1005, Puente Alto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa de Google -->
+    <div class="row justify-content-center mt-4 g-4">
+      <div class="col-12 col-md-10 col-lg-8">
+        <div class="card invitation-card shadow-sm p-3 p-md-4" data-aos="zoom-in" data-aos-duration="1000">
+          <h3 class="h4 fw-bold mb-3">🗺️ ¿Cómo llegar?</h3>
+          <div class="map-wrapper shadow-sm">
+            <!-- Enlace de Google Maps generado con tu dirección -->
+            <iframe 
+              src="https://maps.google.com/maps?q=Pasaje%20Estacion%20el%20Melocoton,%201005,%20Puente%20Alto&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN MENÚ -->
+  <section class="container py-5 menu-section text-center">
+    <h2 class="display-5 fw-bold mb-5" data-aos="fade-down">El Menú Estrella</h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-7">
+        
+        <!-- Estación 1: Entrada -->
+        <div class="menu-card p-4 p-md-5 shadow-sm bg-white mb-5" data-aos="fade-up">
+          <div class="img-placeholder mx-auto mb-4"></div> <!-- Reemplazar con <img> en el futuro -->
+          <h3 class="h2 fw-bold">Entrada</h3>
+          <p class="lead">Un primer bocado suave para empezar a mover la cola de la emoción.</p>
+        </div>
+
+        <!-- Estación 2: Plato Principal -->
+        <div class="menu-card p-4 p-md-5 shadow-sm bg-white mb-5" data-aos="fade-up">
+          <div class="img-placeholder mx-auto mb-4"></div> <!-- Reemplazar con <img> en el futuro -->
+          <h3 class="h2 fw-bold">Plato Principal</h3>
+          <p class="lead">El festín principal, digno de los paladares más exigentes de la familia.</p>
+        </div>
+
+        <!-- Estación 3: Postre -->
+        <div class="menu-card p-4 p-md-5 shadow-sm bg-white" data-aos="fade-up">
+          <div class="img-placeholder mx-auto mb-4"></div> <!-- Reemplazar con <img> en el futuro -->
+          <h3 class="h2 fw-bold">Postre</h3>
+          <p class="lead">Un dulce final para irnos a dormir con la barriga llena y el corazón contento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-5 text-center mt-5">
+    <div class="container" data-aos="fade-in">
+      <h3 class="mb-4 text-white">¿Te unes al festín?</h3>
+      <!-- Reemplaza "569XXXXXXXX" con tu número real (sin el +) -->
+      <a href="https://wa.me/569XXXXXXXX?text=¡Hola!%20Confirmo%20mi%20asistencia%20al%20gran%20festín%20de%20Come%20y%20Calla:%20Edición%20Tobyas%20%F0%9F%90%BE" target="_blank" rel="noopener noreferrer" class="btn btn-action btn-lg px-5 py-3 mb-4 shadow-lg">
+        Confirmar asistencia por WhatsApp
+      </a>
+      <p class="text-white-50 small mb-0 mt-3">Hecho con ❤️ por un Desarrollador de la Familia</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: Bootstrap, AOS.js y el script personalizado -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
