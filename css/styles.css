@@ -92,17 +92,15 @@ h1, h2, h3, .btn {
 }
 
 .img-placeholder {
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   background-color: var(--bg-color);
   border-radius: 50%;
   border: 5px solid var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 6px 10px rgba(0,0,0,0.1), 0 10px 15px rgba(230, 126, 34, 0.2);
-  font-size: 3rem;
-  opacity: 0.8; /* Opacidad ajustada para los nuevos emojis misteriosos */
+  box-shadow: 0 10px 15px rgba(230, 126, 34, 0.2);
 }
 
 /* Special Painting Frame */
