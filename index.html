@@ -2,10 +2,24 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Come y Calla: Edición Tobyas</title>
+  <meta name="description" content="Invitación especial al festín gastronómico Come y Calla: Edición Tobyas. ¡Una velada inolvidable con el Chef Estrella!">
+  <meta name="theme-color" content="#E67E22">
+
+  <!-- Open Graph / Meta etiquetas para WhatsApp y Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Come y Calla: Edición Tobyas 🍲">
+  <meta property="og:description" content="¡Guau, estás invitado! Acompáñanos a un festín inolvidable preparado por Tobyas el Chef Estrella.">
+  <meta property="og:image" content="./assets/images/Tobyas_Chef.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Come y Calla: Edición Tobyas 🍲">
+  <meta name="twitter:description" content="¡Guau, estás invitado! Acompáñanos a un festín inolvidable preparado por Tobyas el Chef Estrella.">
+  <meta name="twitter:image" content="./assets/images/Tobyas_Chef.png">
   
-  <!-- Google Fonts: Fredoka para títulos, Comfortaa para textos -->
+  <!-- Google Fonts: Fredoka para títulos, Quicksand para textos -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,7 +38,7 @@
   <!-- SECCIÓN HERO -->
   <header class="hero d-flex flex-column justify-content-center align-items-center text-center">
     <div class="container" data-aos="zoom-in" data-aos-duration="1200">
-      <img src="./assets/images/Tobyas_Chef.png" alt="Tobyas el Chef Estrella" class="img-fluid tobyas-img mb-4">
+      <img src="./assets/images/Tobyas_Chef.png" alt="Tobyas el Chef Estrella" class="img-fluid tobyas-img mb-4" fetchpriority="high" loading="eager">
       <h1 class="display-2 fw-bold title-animated">Come y Calla:<br><span>Edición Tobyas</span></h1>
       <h2 class="h3 subtitle-animated mt-3">Invitación Especial</h2>
     </div>
@@ -92,28 +106,28 @@
         
         <!-- Plato 1 -->
         <div class="menu-card p-4 p-md-5 shadow-sm bg-white mb-5" data-aos="fade-up">
-          <img src="./assets/images/miniatura_snack_a_la_tabla.jpeg" alt="Snacks a la Tabla" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;">
+          <img src="./assets/images/miniatura_snack_a_la_tabla.jpeg" alt="Snacks a la Tabla" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;" loading="lazy" decoding="async">
           <h3 class="h2 fw-bold">Snacks a la Tabla</h3>
           <p class="lead">Una selección enigmática para iniciar la velada. Piezas sueltas que juntas arman el comienzo perfecto para esta aventura.</p>
         </div>
 
         <!-- Plato 2 -->
         <div class="menu-card p-4 p-md-5 shadow-sm bg-white mb-5" data-aos="fade-up">
-          <img src="./assets/images/miniatura_operacion_doraditas.jpeg" alt="Operación Doraditas" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;">
+          <img src="./assets/images/miniatura_operacion_doraditas.jpeg" alt="Operación Doraditas" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;" loading="lazy" decoding="async">
           <h3 class="h2 fw-bold">Operación Doraditas</h3>
           <p class="lead">Misión clasificada: descubrir el interior de este tesoro. Una incursión llena de texturas sorprendentes donde nada es lo que parece.</p>
         </div>
 
         <!-- Plato 3 (Nuevo espacio agregado) -->
         <div class="menu-card p-4 p-md-5 shadow-sm bg-white mb-5" data-aos="fade-up">
-          <img src="./assets/images/miniatura_no_manches_tobias.jpeg" alt="¡¡No manches Tobias!!" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;">
+          <img src="./assets/images/miniatura_no_manches_tobias.jpeg" alt="¡¡No manches Tobias!!" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;" loading="lazy" decoding="async">
           <h3 class="h2 fw-bold">¡¡No manches Tobias!!</h3>
           <p class="lead">Una combinación tan salvaje e intensa que te dejará boquiabierto. Un festín descontrolado... ¡Cuidado con la ropa!</p>
         </div>
 
         <!-- Plato 4: Postre -->
         <div class="menu-card p-4 p-md-5 shadow-sm bg-white" data-aos="fade-up">
-          <img src="./assets/images/miniatura_el_bananon_del_tobi.jpeg" alt="El Bananón del Tobi" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;">
+          <img src="./assets/images/miniatura_el_bananon_del_tobi.jpeg" alt="El Bananón del Tobi" class="img-placeholder mx-auto mb-4" style="object-fit: cover; opacity: 1;" loading="lazy" decoding="async">
           <h3 class="h2 fw-bold">El Bananón del Tobi</h3>
           <p class="lead">La joya de la corona de nuestro anfitrión. Un cierre maestro y delicioso que te hará ladrar de felicidad pidiendo otra ronda.</p>
         </div>
@@ -127,7 +141,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8">
         <div class="painting-frame p-3 bg-white mx-auto" data-aos="zoom-in" data-aos-duration="1000">
-          <img src="./assets/images/Recuadro%20Familia.jpeg" alt="Recreación de nuestro cuadro familiar" class="img-fluid w-100" style="border-radius: calc(var(--border-radius-main) - 10px);">
+          <img src="./assets/images/Recuadro%20Familia.jpeg" alt="Recreación de nuestro cuadro familiar" class="img-fluid w-100" style="border-radius: calc(var(--border-radius-main) - 10px);" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -140,7 +154,16 @@
       <a href="https://chat.whatsapp.com/FmzU0jnywmXHfdoCGGEozO" target="_blank" rel="noopener noreferrer" class="btn btn-action btn-lg px-5 py-3 mb-4 shadow-lg">
         Confirmar asistencia por WhatsApp
       </a>
-      <p class="text-white-50 small mb-0 mt-3">Hecho con ❤️ por un Desarrollador de la Familia</p>
+
+      <!-- Firma / Atribución de Autor -->
+      <div class="footer-signature mt-4 pt-3 border-top border-secondary border-opacity-25">
+        <p class="text-white-50 small mb-1">
+          &copy; 2025 - 2026 <strong>Cristopher Macaya (<a href="https://github.com/vTriiXxy" target="_blank" rel="noopener noreferrer" class="footer-link">vTriiXxy</a>)</strong> &bull; Todos los derechos reservados.
+        </p>
+        <p class="text-white-50 small mb-0">
+          Diseñado &amp; Creado con ❤️ | Protegido bajo <a href="https://github.com/vTriiXxy/vTriiXxy/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" class="footer-link">Licencia MIT</a>
+        </p>
+      </div>
     </div>
   </footer>
 

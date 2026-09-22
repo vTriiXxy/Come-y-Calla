@@ -32,10 +32,17 @@ La hoja de estilos está preparada para estilizar las siguientes secciones:
 
 ## 🚀 Instalación y Uso
 
-Al ser un proyecto estático compuesto por HTML y CSS:
+Al ser un proyecto estático compuesto por HTML, CSS y JavaScript:
 1. Clona o descarga el repositorio.
-2. Asegúrate de enlazar la hoja de estilos (`css/styles.css`) en tu archivo `index.html`.
-3. Abre el archivo `index.html` en tu navegador web de preferencia para visualizar el proyecto.
+2. Abre el archivo `index.html` en tu navegador web de preferencia para visualizar el proyecto.
+
+## 📄 Licencia y Atribución
+
+Este proyecto utiliza una licencia mixta protegida:
+- **Código Fuente (HTML, CSS, JS):** Distribuido bajo la [Licencia MIT](LICENSE). Puedes usarlo, modificarlo y compartirlo libremente.
+- **Requisito Obligatorio de Atribución:** Cualquier persona que reutilice o adapte este diseño/código **debe mantener de forma visible** la firma y créditos en el pie de página:
+  > *© 2025 - 2026 Cristopher Macaya (vTriiXxy) • Todos los derechos reservados. Diseñado & Creado con ❤️ | Protegido bajo Licencia MIT*
+- **Contenido Multimedia y Personal (`assets/images/`):** Todos los derechos reservados. Las fotos familiares, imágenes y branding de Tobyas son de uso privado y exclusivo del autor.
 
 ---
 *Desarrollado para el proyecto Codeo.*
